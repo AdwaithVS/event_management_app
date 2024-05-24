@@ -60,6 +60,7 @@ const HomePage = () => {
                 <p><b>JoyFest Events</b> is an event management company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magni facilis nemo aliquid? Alias ad, ducimus nostrum obcaecati id fugiat sapiente dolorum, numquam quas incidunt maxime reprehenderit cumque velit corrupti!
                   Sed asperiores eaque rerum! Exercitationem voluptate excepturi eos mollitia quis minus, unde porro, inventore ad enim asperiores natus, vero esse quidem! Dolor quo tempore officia voluptates facere tenetur sint nisi?
                   Aliquid est sint voluptatum aut, inventore nam! Quaerat error culpa ut aspernatur modi, illo natus suscipit, tempore magnam sunt mollitia? Non corporis eos est modi maxime nam magni quod perspiciatis.</p>
+                  <a href="#"><button className="btn btn-primary">See more!</button></a>
               </div>
             </div>
 
