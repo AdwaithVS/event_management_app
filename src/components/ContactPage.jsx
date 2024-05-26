@@ -65,7 +65,7 @@ const ContactPage = () => {
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="card  bg-info-subtle">
                             <div className="card-body">
-                                <h3 className="card-text text-center">Ask Us!</h3>
+                                <h3 className="card-text text-center">Ask/Feedback </h3>
                                 <p className="card-text text-center">Couldn't find an answer to your question? Ask us your questions! If your satisfied with our service, leave us a feedback.</p>
                                 <div className="row g-3">
                                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
