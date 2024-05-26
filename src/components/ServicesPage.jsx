@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const ServicesPage = () => {
     return (
         <div>
+            <NavBar/>
             <div className="container">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -11,7 +13,8 @@ const ServicesPage = () => {
                                 <div class="card bg-info-subtle">
                                     <div class="card-body text-center">
                                         <h3 class="card-text">Unlock Unforgettable Experiences</h3>
-                                        <p class="card-text">Our comprehensive services are meticulously designed to cater to every aspect of your event, ensuring every moment is perfect. From seamless planning and coordination to exquisite details and impeccable execution, we're dedicated to crafting memorable experiences that exceed your expectations and leave a lasting impression on you and your guests.</p>
+                                        <p class="card-text">Our comprehensive services are meticulously designed to cater to every aspect of your event, ensuring every moment is perfect. From seamless planning and coordination to exquisite details and impeccable execution, we're dedicated to crafting memorable experiences that exceed your expectations and leave a lasting impression on you and your guests.
+                                        Here are a few of the services we provide.</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +102,7 @@ const ServicesPage = () => {
                                 <div class="card">
                                     <img src="https://media.istockphoto.com/id/1381030718/photo/barsana-holi-one-of-the-most-joyful-festival-of-india-this-is-birth-place-of-radha-lord.jpg?s=612x612&w=0&k=20&c=c0kcjHpSFJXg7F4D6s8Ez-7RWY3MjoIrwsiRQKScank=" class="card-img-top" alt="..." />
                                     <div class="card-body">
-                                        <h4 class="card-text">Festival Celebration Party</h4>
+                                        <h4 class="card-text">Festival Celebrations</h4>
                                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, numquam. Incidunt, maiores? In facilis accusantium vero ducimus totam perspiciatis iste reiciendis, consequuntur aspernatur. Beatae magnam facilis itaque harum eum! Ratione!
                                             Natus qui incidunt nihil cupiditate praesentium distinctio eos atque ab voluptates ut aliquid aperiam perspiciatis, obcaecati architecto consequatur est reiciendis in dolorum ex quidem magnam. Assumenda voluptate quos molestias fugit.</p>
                                     </div>
@@ -109,7 +112,7 @@ const ServicesPage = () => {
                                 <div class="card bg-info-subtle">
                                     <div class="card-body text-center">
                                         <h3 class="card-text">Book <b>YOUR</b> event today!</h3>
-                                        <a className="btn btn-primary" href="#">Click Here!</a>
+                                        <a className="btn btn-success" href="/contact">Click Here!</a>
                                     </div>
                                 </div>
                             </div>

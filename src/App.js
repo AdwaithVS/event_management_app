@@ -5,15 +5,20 @@ import ServicesPage from './components/ServicesPage';
 import AboutPage from './components/AboutPage';
 import FAQPage from './components/FAQPage';
 import ContactPage from './components/ContactPage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <HomePage/>
-      <ServicesPage/>
-      <AboutPage/>
-      <FAQPage/>
-      <ContactPage/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/about" element={<AboutPage/>}/>
+          <Route path="/service" element={<ServicesPage/>}/>
+          <Route path="/faqs" element={<FAQPage/>}/>
+          <Route path="/contact" element={<ContactPage/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

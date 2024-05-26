@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const AboutPage = () => {
     return (
         <div>
+            <NavBar/>
             <div className="container">
                 <div className="row g-3 text-center">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -97,9 +99,9 @@ const AboutPage = () => {
                         <div className="card bg-info-subtle">
                             <div className="card-body">
                                 <h2 className="card-text">For more details, Contact Us</h2>
-                                <h3 className="card-text">Email : joyfestcomp@gmail.com</h3>
-                                <h3 className="card-text">Telephone No : +91 22 1234 5678</h3>
-                                <p className="card-text">Or <a href="">Click Here!</a></p>
+                                <h5 className="card-text">Email : joyfestcomp@gmail.com</h5>
+                                <h5 className="card-text">Telephone No : +91 22 1234 5678</h5>
+                                <p className="card-text">Or <a href="/contact">Click Here!</a></p>
                             </div>
                         </div>
                     </div>

@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const HomePage = () => {
   return (
     <div>
+      <NavBar/>
       <div className="container">
         <div className="row g-3">
           <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -60,7 +62,7 @@ const HomePage = () => {
                 <p><b>JoyFest Events</b> is an event management company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magni facilis nemo aliquid? Alias ad, ducimus nostrum obcaecati id fugiat sapiente dolorum, numquam quas incidunt maxime reprehenderit cumque velit corrupti!
                   Sed asperiores eaque rerum! Exercitationem voluptate excepturi eos mollitia quis minus, unde porro, inventore ad enim asperiores natus, vero esse quidem! Dolor quo tempore officia voluptates facere tenetur sint nisi?
                   Aliquid est sint voluptatum aut, inventore nam! Quaerat error culpa ut aspernatur modi, illo natus suscipit, tempore magnam sunt mollitia? Non corporis eos est modi maxime nam magni quod perspiciatis.</p>
-                  <a href="#"><button className="btn btn-primary">See more!</button></a>
+                  <a href="/about"><button className="btn btn-success">See more!</button></a>
               </div>
             </div>
 
@@ -98,7 +100,7 @@ const HomePage = () => {
                   </div>
                   <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <h4>...and many more!</h4>
-                    <p>Check out all services that we offer. <a href="#">Click Here!</a></p>
+                    <p>Check out all services that we offer. <a href="/service">Click Here!</a></p>
                   </div>
                 </div>
               </div>

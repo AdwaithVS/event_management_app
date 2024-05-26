@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const FAQPage = () => {
     return (
         <div>
+            <NavBar />
             <div className="container">
                 <div className="row g-3">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -140,7 +142,7 @@ const FAQPage = () => {
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
-                                            Is my payment information secure?
+                                                Is my payment information secure?
                                             </button>
                                         </h2>
                                         <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -152,7 +154,7 @@ const FAQPage = () => {
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
-                                            How can I share event details with my friends?
+                                                How can I share event details with my friends?
                                             </button>
                                         </h2>
                                         <div id="flush-collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -164,7 +166,7 @@ const FAQPage = () => {
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
-                                            What should I do if I encounter technical issues with the app/website?
+                                                What should I do if I encounter technical issues with the app/website?
                                             </button>
                                         </h2>
                                         <div id="flush-collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -176,7 +178,7 @@ const FAQPage = () => {
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
-                                            Can I host a private event/party?
+                                                Can I host a private event/party?
                                             </button>
                                         </h2>
                                         <div id="flush-collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -188,7 +190,7 @@ const FAQPage = () => {
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
-                                            How do I find transportation information for an event?
+                                                How do I find transportation information for an event?
                                             </button>
                                         </h2>
                                         <div id="flush-collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -202,32 +204,14 @@ const FAQPage = () => {
                         </div>
                     </div>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                        <div className="card  bg-info-subtle">
+                        <div className="card bg-info-subtle text-center">
                             <div className="card-body">
-                                <h3 className="card-text text-center">Ask Us!</h3>
-                                <p className="card-text text-center">Couldn't find an answer to your question? Ask us your questions! If your satisfied with our service, leave us a feedback.</p>
-                                <div className="row g-3">
-                                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                        <input type="radio" name="type" className="form-check-label" value="question"/>
-                                        <label htmlFor="" className="form-label">Question</label><br />
-                                        <input type="radio" name="type" className="form-check-label" value="feedback"/>
-                                        <label htmlFor="" className="form-label">Feedack</label>
-                                    </div>
-                                    <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                        <label htmlFor="" className="form-label">Your Email ID</label>
-                                        <input type="text" className="form-control" placeholder="someone@example.com" />
-                                    </div>
-                                    <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                        <label htmlFor="" className="form-label">Your Question</label>
-                                        <textarea name="" id="" className="form-control" placeholder="Type something here"></textarea>
-                                    </div>
-                                    <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                        <button className="btn btn-primary">Submit</button>
-                                    </div>
-                                </div>
+                                <h2 className="card-text">Have more questions? Contact Us</h2>
+                                <h5 className="card-text">Email : joyfestcomp@gmail.com</h5>
+                                <h5 className="card-text">Telephone No : +91 22 1234 5678</h5>
+                                <p className="card-text">Or <a href="/contact">Click Here!</a></p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
