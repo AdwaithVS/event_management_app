@@ -15,7 +15,7 @@ const HomePage = () => {
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="https://wallpaper.dog/large/20595413.jpg" class="d-block w-100" alt="..." />
+                  <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*CV7GJpC_6QOnouTP" class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block">
                     <h3>JoyFest Events</h3>
                     <p>To create and cherish joyful memories!</p>
@@ -54,7 +54,7 @@ const HomePage = () => {
             </div>
           </div>
           <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div className="card">
+            <div className="card bg-info-subtle">
               <div className="card-body text-center">
                 <h2>Who are we?</h2>
                 <p><b>JoyFest Events</b> is an event management company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magni facilis nemo aliquid? Alias ad, ducimus nostrum obcaecati id fugiat sapiente dolorum, numquam quas incidunt maxime reprehenderit cumque velit corrupti!
@@ -66,7 +66,7 @@ const HomePage = () => {
 
           </div>
           <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div className="card">
+            <div className="card bg-info-subtle">
               <div className="card-body text-center">
                 <div className="row g-3">
                   <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">

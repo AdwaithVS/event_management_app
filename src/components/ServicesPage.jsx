@@ -8,7 +8,7 @@ const ServicesPage = () => {
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="row g-3">
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <div class="card">
+                                <div class="card bg-info-subtle">
                                     <div class="card-body text-center">
                                         <h3 class="card-text">Unlock Unforgettable Experiences</h3>
                                         <p class="card-text">Our comprehensive services are meticulously designed to cater to every aspect of your event, ensuring every moment is perfect. From seamless planning and coordination to exquisite details and impeccable execution, we're dedicated to crafting memorable experiences that exceed your expectations and leave a lasting impression on you and your guests.</p>
@@ -106,7 +106,7 @@ const ServicesPage = () => {
                                 </div>
                             </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <div class="card">
+                                <div class="card bg-info-subtle">
                                     <div class="card-body text-center">
                                         <h3 class="card-text">Book <b>YOUR</b> event today!</h3>
                                         <a className="btn btn-primary" href="#">Click Here!</a>

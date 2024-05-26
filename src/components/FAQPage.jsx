@@ -6,7 +6,7 @@ const FAQPage = () => {
             <div className="container">
                 <div className="row g-3">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                        <div className="card text-center">
+                        <div className="card text-center bg-info-subtle">
                             <div className="card-body">
                                 <h2 className="card-text">FAQs</h2>
                                 <p className="card-text">Here are some of the Frequently Asked Questions to us.</p>
@@ -14,7 +14,7 @@ const FAQPage = () => {
                         </div>
                     </div>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                        <div className="card">
+                        <div className="card bg-info-subtle">
                             <div className="card-body">
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
@@ -202,7 +202,7 @@ const FAQPage = () => {
                         </div>
                     </div>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                        <div className="card">
+                        <div className="card  bg-info-subtle">
                             <div className="card-body">
                                 <h3 className="card-text text-center">Ask Us!</h3>
                                 <p className="card-text text-center">Couldn't find an answer to your question? Ask us your questions! If your satisfied with our service, leave us a feedback.</p>
