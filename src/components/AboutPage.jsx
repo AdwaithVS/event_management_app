@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 const AboutPage = () => {
     return (
         <div>
-            <NavBar/>
+            <NavBar />
             <div className="container">
                 <div className="row g-3 text-center">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -52,43 +52,66 @@ const AboutPage = () => {
                             <div class="card-body">
                                 <div className="row g-3">
                                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                        <h3>Here are a few of our satisfied customers!</h3>
+                                        <h3>Our Partners</h3>
                                     </div>
                                     <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                                         <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Arjun</h5>
-                                                <h3 className="text-warning">★ ★ ★ ★ ☆</h3>
-                                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem in tempore porro incidunt qui? Corporis et pariatur aliquam autem laborum possimus amet neque, ea veritatis. Nihil maxime rem nobis autem!</p>
-                                            </div>
+                                            <img src="https://seeklogo.com/images/B/bookmyshow-logo-31BC3C7354-seeklogo.com.png" class="card-img" alt="..." />
                                         </div>
                                     </div>
                                     <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                                         <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Radhika</h5>
-                                                <h3 className="text-warning">★ ★ ★ ★ ★</h3>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quidem repellat labore explicabo quis sapiente ex modi animi, nobis impedit fuga, dolorem eius assumenda iste quibusdam consequatur tenetur unde atque?</p>
-                                            </div>
+                                            <img src="https://miro.medium.com/v2/resize:fit:300/0*mgpGbzE1zGBApA0m.png" class="card-img" alt="..." />
                                         </div>
                                     </div>
                                     <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                                         <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Vikram</h5>
-                                                <h3 className="text-warning">★ ★ ★ ☆ ☆</h3>
-                                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, quod aliquam expedita quia quam eum necessitatibus reiciendis maxime fugiat similique libero commodi nemo fugit dolores accusamus ad, officiis corporis velit!</p>
-                                            </div>
+                                            <img src="https://i.pinimg.com/564x/d2/3c/bf/d23cbf926d0672238d35ff3486a8c7a3.jpg" class="card-img" alt="..." />
                                         </div>
                                     </div>
                                     <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                                         <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Priya</h5>
-                                                <h3 className="text-warning">★ ★ ★ ★ ☆</h3>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione quas assumenda vitae corrupti deleniti repellendus! Minima, culpa quaerat nam exercitationem ullam quia reprehenderit, nihil, ut dolores nisi eligendi placeat!</p>
-
-                                            </div>
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuLUP_81EcSBvMWqGG5gBGiNUwX0xqnkie0Bs50Sw0Q&s" class="card-img" alt="..." />
+                                        </div>
+                                    </div>
+                                    <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0aD0VfqClyPOH4c-hdJNkpnhSMLFxoANU3l4k2I0HHQ&s" class="card-img" alt="..." />
+                                        </div>
+                                    </div>
+                                    <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card">
+                                            <img src="https://seeklogo.com/images/U/uber-logo-2BB8EC4342-seeklogo.com.png" class="card-img" alt="..." />
+                                        </div>
+                                    </div>
+                                    <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card">
+                                            <img src="https://www.corecommunique.com/wp-content/uploads/2017/06/myntra-300x300.jpg" class="card-img" alt="..." />
+                                        </div>
+                                    </div>
+                                    <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card">
+                                            <img src="https://i.scdn.co/image/ab6775700000ee8538ee592e9ed7c16a26afc6ad" class="card-img" alt="..." />
+                                        </div>
+                                    </div>
+                                    <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXLcwC8WfQqfYxzGG_usDy5yt8v6WXYQyDsIY82QddQ&s" class="card-img" alt="..." />
+                                        </div>
+                                    </div>
+                                    <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzb8498aF74LmoTF65bocFP8tOrma2V0RTYLYzDkDgEQV4CUuLu72UPD7515CgcA8LIw0&usqp=CAU" class="card-img" alt="..." />
+                                        </div>
+                                    </div>
+                                    <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD4NC__jQTebdnwx-V96D6JPTBlI7LPS1sMqRLyXBD0w&s" class="card-img" alt="..." />
+                                        </div>
+                                    </div>
+                                    <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRghYTWSTwi2E4zoZ_a5NZ8B9QH_aLvRTK7toXI7Nqf8g&s" class="card-img" alt="..." />
                                         </div>
                                     </div>
                                 </div>

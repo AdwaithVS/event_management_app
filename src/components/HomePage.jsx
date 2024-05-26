@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 const HomePage = () => {
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <div className="container">
         <div className="row g-3">
           <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -27,21 +27,21 @@ const HomePage = () => {
                   <img src="https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Upto 20% off on weddings!</h5>
-                    <button className="btn btn-primary">Book Now</button>
+                    <a href="/contact"><button className="btn btn-primary">Book Now</button></a>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="https://cdn.cherishx.com/uploads/1654522839_original.jpg" class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Make your birthdays memorable!</h5>
-                    <button className="btn btn-primary">Book Now</button>
+                    <a href="/contact"><button className="btn btn-primary">Book Now</button></a>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="https://watermark.lovepik.com/photo/20211122/large/lovepik-concert-music-festival-passionate-stage-atmosphere-picture_500730236.jpg" class="d-block w-100" alt="..." />
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Concerts at Your Fingertips!</h5>
-                    <button className="btn btn-primary">Book Now</button>
+                    <a href="/contact"><button className="btn btn-primary">Book Now</button></a>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const HomePage = () => {
                 <p><b>JoyFest Events</b> is an event management company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magni facilis nemo aliquid? Alias ad, ducimus nostrum obcaecati id fugiat sapiente dolorum, numquam quas incidunt maxime reprehenderit cumque velit corrupti!
                   Sed asperiores eaque rerum! Exercitationem voluptate excepturi eos mollitia quis minus, unde porro, inventore ad enim asperiores natus, vero esse quidem! Dolor quo tempore officia voluptates facere tenetur sint nisi?
                   Aliquid est sint voluptatum aut, inventore nam! Quaerat error culpa ut aspernatur modi, illo natus suscipit, tempore magnam sunt mollitia? Non corporis eos est modi maxime nam magni quod perspiciatis.</p>
-                  <a href="/about"><button className="btn btn-success">See more!</button></a>
+                <a href="/about"><button className="btn btn-success">See more!</button></a>
               </div>
             </div>
 
@@ -101,6 +101,53 @@ const HomePage = () => {
                   <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <h4>...and many more!</h4>
                     <p>Check out all services that we offer. <a href="/service">Click Here!</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="card bg-info-subtle">
+              <div class="card-body">
+                <div className="row g-3">
+                  <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <h3>Here are a few of our satisfied customers!</h3>
+                  </div>
+                  <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Arjun</h5>
+                        <h3 className="text-warning">★ ★ ★ ★ ☆</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem in tempore porro incidunt qui? Corporis et pariatur aliquam autem laborum possimus amet neque, ea veritatis. Nihil maxime rem nobis autem!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Radhika</h5>
+                        <h3 className="text-warning">★ ★ ★ ★ ★</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quidem repellat labore explicabo quis sapiente ex modi animi, nobis impedit fuga, dolorem eius assumenda iste quibusdam consequatur tenetur unde atque?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Vikram</h5>
+                        <h3 className="text-warning">★ ★ ★ ☆ ☆</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, quod aliquam expedita quia quam eum necessitatibus reiciendis maxime fugiat similique libero commodi nemo fugit dolores accusamus ad, officiis corporis velit!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Priya</h5>
+                        <h3 className="text-warning">★ ★ ★ ★ ☆</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione quas assumenda vitae corrupti deleniti repellendus! Minima, culpa quaerat nam exercitationem ullam quia reprehenderit, nihil, ut dolores nisi eligendi placeat!</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

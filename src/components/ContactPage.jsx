@@ -47,6 +47,7 @@ const ContactPage = () => {
                                             <option value="Theatre Performance">Theatre Performance</option>
                                             <option value="Holiday Party">Holiday Party</option>
                                             <option value="Festival Celebrations">Festival Celebrations</option>
+                                            <option value="Other">Other</option>
                                         </select>
                                     </div>
                                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -82,7 +83,7 @@ const ContactPage = () => {
                                         <textarea name="" id="" className="form-control" placeholder="Type something here"></textarea>
                                     </div>
                                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                        <button className="btn btn-success">Submit</button>
+                                        <button className="btn btn-success"> Submit </button>
                                     </div>
                                 </div>
                             </div>

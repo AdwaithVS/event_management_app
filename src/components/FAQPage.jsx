@@ -209,7 +209,7 @@ const FAQPage = () => {
                                 <h2 className="card-text">Have more questions? Contact Us</h2>
                                 <h5 className="card-text">Email : joyfestcomp@gmail.com</h5>
                                 <h5 className="card-text">Telephone No : +91 22 1234 5678</h5>
-                                <p className="card-text">Or <a href="/contact">Click Here!</a></p>
+                                <p className="card-text">Or<a href="/contact"> Click Here! </a></p>
                             </div>
                         </div>
                     </div>
